@@ -107,7 +107,7 @@ float timer;
   void Destroy_(){
       Destroy(gameObject);
       
-      SceneManager.LoadScene("Menu");
+      SceneManager.LoadScene("victory_scene");
   }
 
 

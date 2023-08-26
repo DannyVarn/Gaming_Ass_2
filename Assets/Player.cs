@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
   }
     void Destroy_(){
       Destroy(gameObject);
-      SceneManager.LoadScene("Menu");
+      SceneManager.LoadScene("lose_scene");
   }
 
 
